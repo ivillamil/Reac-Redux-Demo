@@ -18,4 +18,16 @@ _Note: You will have to open different terminal windows in order to have both pr
     npm start
 
 
+#### TODO
+
+  * Async action creators to fetch the data and update the store
+  * Add, edit and delete rows
+  * Complete the *Themes* page design
+  * Create `actions` and `reducers` for the Theme switching functionality
+  * Add animations with `React-Motion`
+  * Create a small graphQL demo server
+  * Setup `Relay`into the client side
+  * ...
+
+
 > This repo is a work in progress so... stay tuned :D
