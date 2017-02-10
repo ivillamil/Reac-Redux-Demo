@@ -10,8 +10,10 @@ class Content extends Component {
 
 const styles = {
     content: {
+        display: "flex",
         flex: 1,
-        overflow: 'scroll'
+        flexDirection: "column",
+        overflow: "hidden"
     }
 };
 

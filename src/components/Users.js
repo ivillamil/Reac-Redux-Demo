@@ -39,7 +39,9 @@ class Users extends Component {
 const styles = {
     container: {
         display: 'flex',
-        flexDirection: 'column'
+        flex: 1,
+        flexDirection: 'column',
+        overflowY: "hidden"
     },
 
     noMargin: {
@@ -62,8 +64,10 @@ const styles = {
         backgroundColor: 'white',
         cursor: 'pointer',
         display: 'flex',
+        flex: 0,
         flexDirection: 'row',
         marginBottom: 2,
+        minHeight: 60,
         padding: 10,
         transition: 'all 200ms ease-in',
 
@@ -101,6 +105,7 @@ const styles = {
         flexDirection: 'column',
         listStyle: 'none',
         margin: 0,
+        overflowY: 'scroll',
         padding: '0px 10px 10px 10px'
     }
 };
